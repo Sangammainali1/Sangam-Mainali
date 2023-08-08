@@ -75,6 +75,18 @@
         .leftSection {
             font-size: 3rem;
         }
+        .leftSection .buttons {
+            padding:50px 0;
+        }
+        .leftSection .btn {
+            padding: 12px;
+            background: rgb(22, 1, 22);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
 
         .rightSection img {
             width: 80%;
@@ -84,9 +96,11 @@
         .purple {
             color: blueviolet;
         }
-        .text-gray{
+
+        .text-gray {
             color: gray;
         }
+
         #element {
             color: blueviolet;
         }
@@ -96,22 +110,71 @@
             margin: auto;
             height: 80vh;
         }
-        .secondSection h1{
+
+        .secondSection h1 {
             font-size: 1.9rem;
         }
-        .secondSection .box{
+
+        .secondSection .box {
             background: white;
-            width: 80vw;
+            width: 82vw;
             height: 2px;
             margin: 56px 0;
             display: flex;
         }
+
         .secondSection .vertical {
             height: 93px;
             width: 1px;
             background-color: white;
-            margin: 0 100px;
+            margin: 0 120px;
 
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86%;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #1e1e33;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px;
         }
     </style>
 </head>
@@ -137,6 +200,10 @@
                 Hi, My name is <span class="purple">Sangam</span>
                 <div>and I am a Passinate</div>
                 <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
             </div>
             <div class="rightSection">
                 <img src="bg.png" alt="">
@@ -149,23 +216,92 @@
 
             <div class="box">
                 <div class="vertical">
-                    <img class="image-top" src="developer.png" alt="">
+                    <img class="image-top" src="html.png" alt="">
                     <div class="vertical-title">
                         HTML developer (2010-2012)
                     </div>
                     <div class="vertical-desc">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem animi eius non aperiam corporis, fugiat, facere ducimus pariatur saepe molestias possimus beatae dolores.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem animi eius non aperiam corporis,
+                        fugiat, facere ducimus pariatur saepe molestias possimus beatae dolores.
                     </div>
                 </div>
                 <div class="vertical">
-                    NODE.js developer (2012-2014)
+                    <img class="image-top" src="facebook.png" alt="">
+                    <div class="vertical-title">
+                        Node.js developer (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem animi eius non aperiam corporis,
+                        fugiat, facere ducimus pariatur saepe molestias possimus beatae dolores.
+                    </div>
                 </div>
-                <div class="vertical"></div>
-                <div class="vertical"></div>
+                <div class="vertical">
+                    <img class="image-top" src="instagram.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem animi eius non aperiam corporis,
+                        fugiat, facere ducimus pariatur saepe molestias possimus beatae dolores.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="twitter.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem animi eius non aperiam corporis,
+                        fugiat, facere ducimus pariatur saepe molestias possimus beatae dolores.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="youtube.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer(2018-20)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem animi eius non aperiam corporis,
+                        fugiat, facere ducimus pariatur saepe molestias possimus beatae dolores.
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sangam's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyrights &#169; sangammainali.com.np | All rights reserved
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
