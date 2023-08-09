@@ -127,7 +127,7 @@
             height: 93px;
             width: 1px;
             background-color: white;
-            margin: 0 120px;
+            margin: 0 6vw;
 
         }
 
@@ -176,6 +176,55 @@
             color: gray;
             padding: 12px;
         }
+        @media screen and (max-width: 1400px) {
+          body{
+            /* background-color: red; */
+            min-width: fit-content;
+          }
+          .box{
+            flex-direction: column;
+          }
+          .secondSection .vertical{
+            height: unset;
+          }
+          .vertical-title, .vertical-desc{
+            left: 45px;
+          }
+          .secondSection .box{
+            width: 50vw;
+          }
+          nav{
+            flex-direction: column;
+          }
+          .firstSection{
+            flex-direction: column-reverse;
+          }
+          .leftSection{
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .rightSection {
+            width: 721px !important;
+            display: flex;
+            justify-content: center;
+          }
+          .secondSection{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 141vh;
+          }
+          .rightSection img {
+            width: 45vw;
+            margin-bottom: 73px;
+          }
+          .image-top{
+            top: 132px;
+          }
+        }
     </style>
 </head>
 
@@ -197,7 +246,7 @@
     <main>
         <section class="firstSection">
             <div class="leftSection">
-                Hi, My name is <span class="purple">Sangam</span>
+                <div>Hi, My name is <span class="purple">Sangam</span></div>
                 <div>and I am a Passinate</div>
                 <span id="element"></span>
                 <div class="buttons">
